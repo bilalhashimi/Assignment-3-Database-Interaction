@@ -1,0 +1,14 @@
+# Python Dependencies for Student Management System
+# Install these packages using: pip install -r requirements.txt
+
+# PostgreSQL database adapter for Python
+psycopg2-binary==2.9.11
+
+# Alternative PostgreSQL adapter (if psycopg2 has issues)
+# psycopg2==2.9.11
+
+# Date and time utilities (built-in, but listed for reference)
+# datetime
+
+# Additional useful packages for development
+# python-dotenv==1.0.0  # For environment variables (optional)
