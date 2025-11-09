@@ -199,7 +199,3 @@ The project includes comprehensive testing:
 ### Automated Testing
 - `test_crud.py` - Demonstrates all CRUD operations programmatically
 - `verify_db.py` - Validates database setup and connection
-
-
-
-**Submission Notes**: This assignment demonstrates my understanding of database interactions in Python, proper error handling, and secure coding practices. All required functionality has been implemented and thoroughly tested.
