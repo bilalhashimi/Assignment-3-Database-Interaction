@@ -42,7 +42,7 @@ This project implements a Python-based student management system that demonstrat
 
 ## 🎥 Video Demonstration
 
-**[📺 Click here to view the application demo](https://your-video-link-here)**
+**[📺 Click here to view the application demo]([https://your-video-link-here](https://youtu.be/KJjX4-zmpI4))**
 
 The video demonstrates:
 1. Database connection and initial data display
