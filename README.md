@@ -2,11 +2,10 @@
 
 **COMP-3005-A-F Assignment 3: Database Interaction with PostgreSQL**
 
-**Student:** Ahmad Bilal  
-**Student ID:** [Your Student ID]  
+**Student:** Ahmad Bilal    
 **Course:** COMP-3005-A-F  
 **Assignment:** 3 - Database Interaction  
-**Submission Date:** November 9, 2025
+**Submission Date:** November 8, 2025
 
 ## 📖 Assignment Overview
 
@@ -20,22 +19,22 @@ This project implements a Python-based student management system that demonstrat
 
 ## 🎯 Assignment Requirements Fulfilled
 
-✅ **Database Schema Implementation**
+ **Database Schema Implementation**
 - Created `students` table with exact specifications
 - Implemented auto-increment primary key using SERIAL
 - Added appropriate constraints (NOT NULL, UNIQUE)
 
-✅ **Required Functions Implemented**
+ **Required Functions Implemented**
 - `getAllStudents()` - Displays all student records in formatted table
 - `addStudent()` - Inserts new student records with validation
 - `updateStudentEmail()` - Updates email addresses with error handling
 - `deleteStudent()` - Removes student records with confirmation prompts
 
-✅ **Database Population**
+ **Database Population**
 - Inserted all 3 required initial student records
 - Verified data integrity and constraints
 
-✅ **Application Development**
+ **Application Development**
 - Built interactive command-line interface
 - Implemented comprehensive error handling
 - Added input validation for emails and dates
@@ -72,7 +71,7 @@ Assignment-3-Database-Interaction/
 └── .gitignore             # Git ignore file
 ```
 
-## 🚀 Setup and Installation Instructions
+## Setup and Installation Instructions
 
 ### Prerequisites
 
@@ -201,52 +200,6 @@ The project includes comprehensive testing:
 - `test_crud.py` - Demonstrates all CRUD operations programmatically
 - `verify_db.py` - Validates database setup and connection
 
-## 📚 Learning Outcomes
 
-Through completing this assignment, I gained hands-on experience with:
-
-1. **Database Design**: Creating normalized tables with appropriate constraints
-2. **SQL Operations**: Writing SELECT, INSERT, UPDATE, DELETE queries
-3. **Python-PostgreSQL Integration**: Using psycopg2 for database connectivity
-4. **Error Handling**: Managing database exceptions and user input validation
-5. **Software Architecture**: Organizing code into classes and modules
-6. **User Experience**: Designing intuitive command-line interfaces
-
-## 🔧 Technical Specifications
-
-- **Programming Language**: Python 3.8+
-- **Database**: PostgreSQL 14+
-- **Database Driver**: psycopg2-binary 2.9.11
-- **Platform**: Cross-platform (macOS, Linux, Windows)
-
-## 🐛 Known Issues and Solutions
-
-### Issue 1: psycopg2 Installation Problems
-**Solution**: Use `psycopg2-binary` instead of `psycopg2` for easier installation
-
-### Issue 2: Database Connection Refused
-**Solution**: Ensure PostgreSQL service is running and credentials are correct
-
-### Issue 3: Permission Denied Errors
-**Solution**: Use virtual environment and install packages locally
-
-## 📝 Assignment Reflection
-
-This assignment was an excellent introduction to database programming with Python. The most challenging aspects were:
-
-1. **Error Handling**: Learning to gracefully handle various database errors
-2. **User Input Validation**: Ensuring robust input validation for dates and emails
-3. **SQL Constraints**: Understanding how to work with unique constraints and auto-increment IDs
-
-The most rewarding part was seeing all the CRUD operations work together seamlessly and building a complete, functional application from scratch.
-
-## 📞 Support
-
-For any questions about this implementation:
-- Review the code comments for detailed explanations
-- Check the troubleshooting section in this README
-- Refer to the course materials for database concepts
-
----
 
 **Submission Notes**: This assignment demonstrates my understanding of database interactions in Python, proper error handling, and secure coding practices. All required functionality has been implemented and thoroughly tested.
